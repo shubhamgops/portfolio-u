@@ -1,0 +1,98 @@
+.logo{
+    height: 95px;
+}
+
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1.header{
+    float:right;
+    color:#BCBBBB;
+    margin-top: 5px;
+    margin-bottom:0px;
+    font-size: 3em;
+}
+
+p.header{
+    margin:0px;
+    clear:both;
+    float:right;
+    float:right;
+    color:#BCBBBB;
+    font-size: 1.5em;
+}
+
+img.content{
+    width:100%;
+}
+
+h2{
+    color:#BCBBBB;
+    font-size: 2em;
+    margin: 0px;
+}
+
+.bottom p {
+    text-align: center;
+    color:#747704;
+    font-size: 2em;
+    margin: 0px;
+}
+
+hr{
+    height: 5px;
+    color: #BCBBBB;
+    background-color: #BCBBBB;
+    border:0px;
+}
+
+
+
+@media only screen and (max-width:500px) {
+    .logo{
+    height: 55px;
+    }
+
+    h1.header{
+        float:right;
+        color:#BCBBBB;
+        margin-top: 5px;
+        margin-bottom:0px;
+        font-size: 1.5em;
+    }
+
+    p.header{
+        margin:0px;
+        clear:both;
+        float:right;
+        float:right;
+        color:#BCBBBB;
+        font-size: 1em;
+    }
+
+    img.content{
+        width:100%;
+    }
+
+    h2{
+        color:#BCBBBB;
+        font-size: 1em;
+        margin: 0px;
+    }
+
+    .bottom p {
+        text-align: center;
+        color:#747704;
+        font-size: 1em;
+        margin: 0px;
+    }
+
+    hr{
+        height: 5px;
+        color: #BCBBBB;
+        background-color: #BCBBBB;
+        border:0px;
+    }
+
+}
